@@ -20,8 +20,6 @@ public class B_StudentManagement {
         logger.info("\n\nStudent Student Student Student Student Student Student Student\n");
 
         StudentDao studentDao = new StudentDao();
-
-        logger.info("\n\n");
         Student student1 = new Student("Mike", "Schimpf", "mschimpf@scu.edu");
         Student student11 = new Student("Olec", "Balder", "ob@scu.edu");
         studentDao.saveStudent(student11);
