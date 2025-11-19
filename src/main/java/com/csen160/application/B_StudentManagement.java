@@ -1,7 +1,7 @@
 package com.csen160.application;
 
 import com.csen160.dao.StudentDao;
-import com.csen160.model.Student;
+import com.csen160.entities.Student;
 import com.csen160.util.HibernateUtil;
 import jakarta.persistence.Query;
 import org.hibernate.Session;

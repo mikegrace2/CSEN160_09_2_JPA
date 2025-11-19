@@ -1,14 +1,11 @@
 package com.csen160.dao;
 
-import java.io.Serializable;
-
 import jakarta.persistence.Query;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-import com.csen160.model.ParkingSpace;
-import com.csen160.model.Student;
+import com.csen160.entities.ParkingSpace;
 import com.csen160.util.HibernateUtil;
 
 public class ParkingSpaceDao {

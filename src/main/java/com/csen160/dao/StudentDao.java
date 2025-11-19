@@ -1,6 +1,5 @@
 package com.csen160.dao;
 
-import java.io.Serializable;
 import java.util.List;
 
 import jakarta.persistence.Query;
@@ -8,7 +7,7 @@ import jakarta.persistence.Query;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-import com.csen160.model.Student;
+import com.csen160.entities.Student;
 import com.csen160.util.HibernateUtil;
 
 public class StudentDao {

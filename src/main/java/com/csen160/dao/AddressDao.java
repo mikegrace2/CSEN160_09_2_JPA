@@ -1,11 +1,9 @@
 package com.csen160.dao;
 
-import java.io.Serializable;
-
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-import com.csen160.model.Address;
+import com.csen160.entities.Address;
 import com.csen160.util.HibernateUtil;
 
 public class AddressDao {

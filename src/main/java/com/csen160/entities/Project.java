@@ -1,4 +1,4 @@
-package com.csen160.model;
+package com.csen160.entities;
 
 import java.io.Serializable;
 import java.util.HashSet;

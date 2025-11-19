@@ -8,13 +8,13 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.cfg.Environment;
 import org.hibernate.service.ServiceRegistry;
 
-import com.csen160.model.Address;
-import com.csen160.model.CourseList;
-import com.csen160.model.Department;
-import com.csen160.model.Employee;
-import com.csen160.model.ParkingSpace;
-import com.csen160.model.Project;
-import com.csen160.model.Student;
+import com.csen160.entities.Address;
+import com.csen160.entities.CourseList;
+import com.csen160.entities.Department;
+import com.csen160.entities.Employee;
+import com.csen160.entities.ParkingSpace;
+import com.csen160.entities.Project;
+import com.csen160.entities.Student;
 
 public class HibernateUtil {
     private static SessionFactory sessionFactory;

@@ -1,6 +1,6 @@
 package com.csen160.application;
 
-import com.csen160.model.CourseList;
+import com.csen160.entities.CourseList;
 import com.csen160.util.HibernateUtil;
 import jakarta.persistence.Query;
 import jakarta.persistence.TypedQuery;
